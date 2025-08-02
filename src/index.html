@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoMission - 7-Day Green Challenge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌿 EcoMission: 7-Day Green Challenge</h1>
+    
+    <div class="class-badge" id="class-badge">🌱 Eco Seedling</div>
+    
+    <div class="stats">
+      <div class="stat-item">
+        <span class="stat-number" id="day-number">1</span>
+        <span class="stat-label">Day</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" id="credit-count">0</span>
+        <span class="stat-label">Credits</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" id="completed-days">0</span>
+        <span class="stat-label">Completed</span>
+      </div>
+    </div>
+
+    <div class="input-section">
+      <input type="text" id="code-input" placeholder="Enter your eco code (e.g., ECO101)" maxlength="10" />
+      <button id="submit-btn">🌱 Submit Code</button>
+    </div>
+
+    <div class="feedback" id="feedback-msg"></div>
+
+    <div class="progress-section">
+      <div class="progress-title">📅 7-Day Progress <span class="streak-indicator" id="streak-fire" style="display: none;">🔥</span></div>
+      <div class="progress-grid" id="progress-grid"></div>
+    </div>
+
+    <div class="achievement-badge" id="achievement-badge">
+      🏆 Congratulations! You've completed the 7-Day EcoMission! 
+      <br>You're officially an Eco Guardian! 🌟
+    </div>
+
+    <div class="code-examples">
+      <h4>💡 Sample Valid Codes:</h4>
+      <p>ECO101, GREEN02, RECYCLE03, PLANT04, CLEAN05, SAVE06, EARTH07</p>
+    </div>
+
+    <button class="reset-btn" id="reset-btn" onclick="resetProgress()">🔄 Reset Progress</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
