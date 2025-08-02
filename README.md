@@ -34,17 +34,11 @@ Who it benefits:
   Confetti animations, badges, and eco-facts after each submission to increase motivation.
 
 ## 🔗 GitHub Repository Link
-
+https://github.com/Harbinger-Bong/EcoMIssion.git
 
 ## 👨‍👩‍👧‍👦 Team Members & Roles
 - Elsa Joseph – Team Leader  
 - Emil Phil Vinod – Team Member 
-
-## Screenshot
-
-
-
-## 📘 Additional Notes 
 
 ## 💻 Tech Stack
 -HTML, CSS, JavaScript 
@@ -66,4 +60,5 @@ Who it benefits:
 -Add QR code scanner to auto-fill eco-codes
 -Create a leaderboard with top eco-warriors
 -Connect to a backend to track real-time stats globally
+
 -After seven days are completed a possible reward is given 
